@@ -1,1 +1,1 @@
-https://blstgr.github.io/goit-advancedjs-hw-01/
+https://blstgr.github.io/goit-advancedjs-hw-02/
