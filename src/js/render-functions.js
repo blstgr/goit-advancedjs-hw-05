@@ -17,14 +17,13 @@ export function renderGallery(images) {
 }
 
 export function clearGallery() {
-  const gallery = document.querySelector('.gallery');
-  gallery.innerHTML = '';
+  document.querySelector('.gallery').innerHTML = '';
 }
 
-export function showLoader() {
-  document.querySelector('.loader').classList.remove('hidden');
+export function showLoadMore() {
+  document.getElementById('load-more').classList.remove('hidden');
 }
 
-export function hideLoader() {
-  document.querySelector('.loader').classList.add('hidden');
+export function hideLoadMore() {
+  document.getElementById('load-more').classList.add('hidden');
 }
